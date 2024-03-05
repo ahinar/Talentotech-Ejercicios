@@ -1,0 +1,38 @@
+/* De acuerdo a la especificación, rellenar atributos donde haga falta : */
+/* margen y relleno */
+ul.menu {
+  width: 140px;
+  list-style-type: none;
+
+    : 0;
+ 
+    : 0;
+  border: 1px solid #FFC83D;
+}
+ul.menu li {
+  border-bottom: 1px solid #FFC83D;
+}
+/* El último elemento de la lista no debe tener borde inferior */
+ul.menu li:last-child {
+ 
+    : none;
+}
+/* texto alineado al centro y enlace sin subrayado*/
+ul.menu li a {
+ 
+         :center;
+  display: block;
+ 
+       : none;
+  color: #333;
+  padding: 5px;
+  background-color: #E5F3FE;
+}
+/* Estilo al pasar el cursor encima del enlace del ítem de lista*/
+ul.menu li a:
+{
+  background-color: #c8e2f7;
+}
+li a::before {
+    content: "👉 ";
+}

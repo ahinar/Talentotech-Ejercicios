@@ -1,0 +1,10 @@
+Agenda ejercicios
+1. uso de selectores
+2. Propiedades de los textos
+3. Contenedor de accion, con imágen de fondo
+4. Listado con emoji, usando ::before
+5. Menú de navegación horizontal
+6. Breadcrumb navegacional izq-der
+7. Menú de navegación vertical
+8. Galería de imágenes
+9. Tabla de productos

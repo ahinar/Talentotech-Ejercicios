@@ -1,0 +1,11 @@
+Crea un contenedor de «accion» utilizando HTML y CSS. Sigue las siguientes instrucciones:
+
+    Crea un contenedor con la clase cta-container. Este contenedor servirá como el «accion».
+    Asigna una imagen de fondo al contenedor. Asegúrate de que la imagen de fondo cubra completamente el contenedor.
+    Alinea verticalmente la imagen de fondo y colócala en el centro del contenedor.
+    Evita que la imagen de fondo se repita.
+    Alinea el contenido del «Call to Action» en el centro del contenedor.
+    Agrega un relleno de 60px alrededor del contenido para darle espacio.
+    Dentro del contenedor, crea un título (h2) con la clase cta-text que diga «¡Aprovecha nuestra oferta especial!». Ajusta el tamaño de fuente a 28px y utiliza negrita para el texto.
+    Debajo del título, agrega un párrafo (p) con la clase cta-text que diga «Hasta un 40% de descuento en productos seleccionados.»
+    Agrega un botón (button) con la clase cta-button que diga «Descubrir Ofertas». Estiliza el botón con un fondo de color #626bb2, texto en blanco, relleno de 15px en vertical y 30px en horizontal, sin bordes visibles, bordes redondeados, un tamaño de fuente de 20px y texto en mayúsculas.

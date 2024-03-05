@@ -1,0 +1,24 @@
+Creación de un breadcrumb navegacional
+
+Crea un breadcrumb (migas de pan) navegacional utilizando HTML y CSS. El breadcrumb debe contener 
+enlaces que permitan navegar hacia páginas anteriores y siguientes, y se deben aplicar estilos 
+específicos.
+
+Apariencia:
+
+Instrucciones:
+
+-    Dentro del archivo HTML, crea una estructura para el breadcrumb utilizando un elemento <div> con 
+     la clase breadcrumb. El breadcrumb debe contener dos enlaces con las clases left y right. 
+	 El primer enlace debe mostrar «« Anterior» y el segundo enlace debe mostrar «Siguiente »».
+-    Dentro del archivo CSS, asigna la fuente Arial y establece un relleno de 0.5em alrededor del 
+     breadcrumb.
+-    Establece los estilos para los enlaces dentro del breadcrumb. Asigna el color #0095eb, elimina 
+     la decoración de texto, y ponlo en negrita.
+-    Define los estilos de cambio de color al hacer hover en los enlaces. Cuando el usuario pase el
+     cursor sobre un enlace, cambia el color del texto a #006196 y subraya el texto.
+-    Define los estilos para el enlace con la clase right. Utiliza float: right; para alinear 
+     este enlace a la derecha del breadcrumb.
+-    Define los estilos para el enlace con la clase left. Utiliza float: left; para alinear este 
+     enlace a la izquierda del breadcrumb.
+

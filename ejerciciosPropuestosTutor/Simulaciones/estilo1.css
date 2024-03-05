@@ -1,0 +1,50 @@
+/* Todos los párrafos */
+
+{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* título principal contenido en main */
+{
+  color: #336699;
+}
+
+/* título secundario contenido en main */
+{
+  color: #663399;
+}
+
+/* Todos los enlaces de la página */
+{
+  text-decoration: none;
+  color: #CC3300;
+}
+
+/* Lista no ordenada dentro del contenedor lista  */
+{
+  list-style-type: square;
+}
+
+/* Ítems de la lista con la clase "destacado" */
+{
+  font-weight: bold;
+}
+
+/* El botón */
+{
+  background-color: #FF9900;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* El botón cuando se pasa el cursor por encima */
+button:
+{
+  background-color: #CC3300;
+  color: white;
+}

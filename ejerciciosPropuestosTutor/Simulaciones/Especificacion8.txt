@@ -1,0 +1,32 @@
+Creación de una galería de imágenes
+
+Crea una galería de imágenes utilizando HTML y CSS. La galería debe contener una serie de imágenes 
+con estilos específicos y un título.
+
+Apariencia:
+
+Instrucciones:
+
+
+-    Dentro del archivo HTML, crea la estructura básica de una página web. Agrega un elemento <h1> con el texto «Galería de imágenes» y un elemento <div> con el id «galeria». Dentro del <div>, agrega nueve elementos <img>. Puedes utilizar imágenes de ejemplo proporcionadas en la siguiente lista con sus respectivos atributos src y alt:
+
+   <img src="https://cdn-icons-png.flaticon.com/128/12411/12411992.png" alt="Imagen" />
+   <img src="https://cdn-icons-png.flaticon.com/128/12412/12412024.png" alt="Imagen" />
+   <img src="https://cdn-icons-png.flaticon.com/128/12412/12412030.png" alt="Imagen" />
+   <img src="https://cdn-icons-png.flaticon.com/128/12411/12411976.png" alt="Imagen" />
+   <img src="https://cdn-icons-png.flaticon.com/128/12411/12411970.png" alt="Imagen" />
+   <img src="https://cdn-icons-png.flaticon.com/128/12411/12411990.png" alt="Imagen" />
+   <img src="https://cdn-icons-png.flaticon.com/128/12412/12412017.png" alt="Imagen" />
+   <img src="https://cdn-icons-png.flaticon.com/128/12412/12412011.png" alt="Imagen" />
+   <img src="https://cdn-icons-png.flaticon.com/128/12412/12412025.png" alt="Imagen" />
+
+-    En el archivo CSS, define el estilo global para todos los elementos utilizando el selector *. 
+     Establece el margen a 0.
+-    Establece los estilos para el elemento <h1>. Centra el texto, establece un fondo de color 
+     #EDEEEE, color de texto orange, un borde inferior de 3px solid #4caf50, y un relleno de 30px.
+-    Define los estilos para el <div> con el id «galeria». Establece un ancho máximo de 500px y centrar
+     el elemento horizontalmente con margin: 0 auto;.
+-    Establece los estilos para los elementos <img> dentro de la galería. Utiliza float: left; 
+     para alinear las imágenes a la izquierda, agrega un relleno de 1.2em para separar las imágenes 
+	 y aplica los estilos de cambio de color al hacer hover. Cuando el usuario pase el cursor sobre 
+	 una imagen, cambia el fondo de color a #e8f1f4.
