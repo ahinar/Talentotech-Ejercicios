@@ -1,5 +1,5 @@
 <!--
-Estilo de enlaces: Agrega varios enlaces a tu pagina HTML y aplica estilos diferentes para los enlaces normales, visitados y al pasar el mouse sobre ellos
+Diseño de caja: Crea tres elementos div en tu pagin, aplica estilos para cambiar el color de fondo, el borde y el margen de cada caja
 -->
 
 <!DOCTYPE html>
@@ -9,24 +9,42 @@ Estilo de enlaces: Agrega varios enlaces a tu pagina HTML y aplica estilos difer
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estilo de enlaces</Blog></title>
   <style>
-    a:link {
-        color: green;
+    section{
+      display:flex;
+    }
+    #caja1 {
+      width: 100px;
+        background-color: green;
+      border: solid brown;
+      margin: 10px 0 10px 0px;
+      padding: 0 10px 0 40px;
     }
 
-    a:visited {
-        color: hotpink;
+    #caja2 {
+      width: 100px;
+        background-color: hotpink;
+      border: solid yellow;
+      margin: 30px 250px 10px 0px;
+      padding-left: 60px;
     }
 
-    a:hover {
+    #caja3 {
+      width: 100px;
         color: red;
+      background-color: blueviolet;
+      border: solid black;
+      margin: 0px 250px 0px 0px;
+      padding-left: 120px;
     
   </style>
 </head>
 <body>
-    <h1>Estilo de enlaces</h1>
-  <a href="#">enlace1</a>
-  <a href="#">enlace2</a>
-  <a href="#">enlace3</a>
+  <section>
+    <div id="caja1" >Contenido de Caja</div>
+    <div id="caja2"">Contenido de Caja</div>
+    <div id="caja3">Contenido de Caja</div>
+  </section>
+    
 
 
     
