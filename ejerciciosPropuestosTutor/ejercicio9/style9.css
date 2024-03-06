@@ -1,0 +1,13 @@
+*{
+  font-family: arial;
+  text-align: center;
+}
+.styled-table{  
+  width: 80%;
+  margin: 20px auto;  
+}
+
+.styled-table caption {
+font-size: 20px;
+padding: 10px;
+}

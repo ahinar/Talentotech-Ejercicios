@@ -1,0 +1,22 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+h1{
+  text-align: center;
+  background-color: #EDEEEE;
+  color: orange;
+  border-bottom: solid 3px #4caf50;
+  padding: 30px;
+}
+#galeria{
+  margin: 0 auto;
+  max-width: 500px;
+}
+#galeria img{
+  float: left;
+  padding: 1.2em;
+}
+#galeria img:hover{
+  background-color: #e8f1f4;
+}

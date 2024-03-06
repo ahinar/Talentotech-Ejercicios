@@ -1,12 +1,15 @@
 /* De acuerdo a la especificación, rellenar atributos donde haga falta : */
 /* margen y relleno */
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
 ul.menu {
   width: 140px;
   list-style-type: none;
 
-    : 0;
+   margin : 0;
  
-    : 0;
+    padding: 0;
   border: 1px solid #FFC83D;
 }
 ul.menu li {
@@ -15,21 +18,21 @@ ul.menu li {
 /* El último elemento de la lista no debe tener borde inferior */
 ul.menu li:last-child {
  
-    : none;
+    border-bottom: none;
 }
 /* texto alineado al centro y enlace sin subrayado*/
 ul.menu li a {
  
-         :center;
+     text-align    :center;
   display: block;
  
-       : none;
+       text-decoration: none;
   color: #333;
   padding: 5px;
   background-color: #E5F3FE;
 }
 /* Estilo al pasar el cursor encima del enlace del ítem de lista*/
-ul.menu li a:
+ul.menu li a:hover
 {
   background-color: #c8e2f7;
 }
