@@ -25,5 +25,5 @@ nav ul a:hover{
   background-color: #336699;
 }
 li:last-child a{
-  border-right: none;
+  border-right: none;/*quita en borde derecho del ultimo elemento*/
 }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <link rel="stylesheet" href="/Clase06_03_24/style.css">
+    <title>Pagina Sencilla</title>
+</head>
+<body>
+    <!--seccion encabezado-->
+    <header>
+        <h1>Tiltulo encabezado</h1>
+    </header>
+
+    <!--seccion contenido-->
+    <main>
+        <!--primera seccion de main-->
+        <section>
+            <h2>Titulo de la lista</h2>
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+        </section>
+<!--segunda sección de main-->
+        <section>
+            <h2>Titúlo de formulario</h2>
+            <form>
+                
+                <label for="nombre">Introduzca su nombre</label>
+                <input type="text" id="nombre">
+                <label for="correo">Correo-e</label>
+                <input type="text" id="correo">
+                <label for="lenguages">Seleccione el lenguaje que mas domina</label>
+                <select id="lenguajes" name="lenguages">
+                    <option value="selecciona" id="seleccion">Selecciona una opcion</option>
+                    <option value="java">Java</option>
+                    <option value="javascript">Javascript</option>
+                    <option value="python">Python</option>
+                    <option value="php">PHP</option>
+                </select>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        
+        <footer>
+            <p>pie de pagina del documento</p>
+        </footer>
+    </main>
+    
+</body>
+</html>
