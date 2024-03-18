@@ -1,0 +1,41 @@
+p{
+    font-family: Courier, monospace;
+    color: blue;
+
+}
+
+.resaltar{
+    background-color: yellow;
+}
+
+#encabezado{
+    font-size: 20px;
+    color: rgb(48, 172, 95);
+}
+
+table{
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+th{
+    text-align: left;
+    background-color:  rgb(63, 153, 226)
+}
+
+td {
+    text-align: right;
+}
+
+.fila1{
+    font-size: 20px;
+}
+.fila2 {
+    background-color: blueviolet;
+}
+
+.fila3{
+    color:powderblue;
+   background-color: #888888;
+   text-align: center;
+ }
+
